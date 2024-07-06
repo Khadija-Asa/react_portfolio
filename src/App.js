@@ -4,7 +4,7 @@ function App() {
   return (
 
     <div>
-      <h1>je déploie pour tester</h1>
+      <h1>deploy for test</h1>
     </div>
     
   );
