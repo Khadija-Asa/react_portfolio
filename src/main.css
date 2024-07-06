@@ -1,0 +1,95 @@
+/* Colors */
+:root {
+  --Dark-Purple: #FF451D;
+  --Light-Purple: #AE8CFA;
+  --White: #FEFCFF;
+}
+
+/* Fonts */
+
+@font-face {
+  font-family: 'Romalika';
+  src: url(./assets/fonts/romalika/ROMALIKA.otf);
+}
+
+@font-face {
+  font-family: 'Catalonia';
+  src: url(./assets/fonts/south_catalonia/South\ Catalonia.otf);
+}
+
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
+ul[role='list'],
+ol[role='list'],
+a, li, ul {
+  list-style: none;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* Set core root defaults */
+html:focus-within {
+  scroll-behavior: smooth;
+}
+
+html, body {
+  overflow-x: hidden;
+}
+
+/* Set core body defaults */
+body {
+  background-color: #ede8e4;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Romalika';
+  height: 100vh;
+  line-height: 1.5;
+  text-rendering: optimizeSpeed;
+}
+
+/* Inherit fonts for inputs and buttons */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+/* Remove all animations, transitions and smooth scroll for people that prefer not to see them */
+@media (prefers-reduced-motion: reduce) {
+  html:focus-within {
+   scroll-behavior: smooth;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: smooth !important;
+  }
+}
+
+a {
+  cursor: none;
+}
+
+::-webkit-scrollbar{
+  width: 5px;
+  background-color:var(--White);
+}
+::-webkit-scrollbar-thumb{
+  background-color:var(--Light-Purple);
+  border-radius: 10px;
+}
