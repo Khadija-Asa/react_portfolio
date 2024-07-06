@@ -12,11 +12,6 @@
   src: url(./assets/fonts/romalika/ROMALIKA.otf);
 }
 
-@font-face {
-  font-family: 'Catalonia';
-  src: url(./assets/fonts/south_catalonia/South\ Catalonia.otf);
-}
-
 /* Box sizing rules */
 *,
 *::before,
