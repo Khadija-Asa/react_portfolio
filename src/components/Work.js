@@ -4,7 +4,7 @@ import './../styles/work.css';
 const Work = () => {
   return (
     <div>
-      
+      je suis la page work
     </div>
   );
 };

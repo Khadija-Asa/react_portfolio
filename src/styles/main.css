@@ -8,7 +8,12 @@
 
 @font-face {
   font-family: 'Romalika';
-  src: url(./assets/fonts/romalika/ROMALIKA.otf);
+  src: url(./../fonts/romalika/ROMALIKA.otf);
+}
+
+@font-face {
+  font-family: 'Pergola';
+  src: url(./../fonts/pergola/Pergola-Demo.otf);
 }
 
 /* Box sizing rules */
@@ -36,17 +41,16 @@ html:focus-within {
 }
 
 html, body {
-  overflow-x: hidden;
+  overflow: hidden;
 }
 
 /* Set core body defaults */
 body {
   background-color: #ede8e4;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  font-family: 'Romalika';
   height: 100vh;
+  width: 100vw;
+  color: var(--Black);
+  font-family: 'Pergola';
   line-height: 1.5;
   text-rendering: optimizeSpeed;
 }
@@ -73,10 +77,6 @@ select {
     transition-duration: 0.01ms !important;
     scroll-behavior: smooth !important;
   }
-}
-
-a {
-  cursor: none;
 }
 
 ::-webkit-scrollbar{

@@ -1,0 +1,17 @@
+.nav_section {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  height: 3rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  width: 100%;
+}
+
+.nav_title {
+  color: var(--Black);
+  font-weight:900;
+  letter-spacing: .1rem;
+  text-transform: uppercase;
+}
+

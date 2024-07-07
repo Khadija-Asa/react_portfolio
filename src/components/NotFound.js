@@ -4,7 +4,7 @@ import './../styles/notfound.css';
 const NotFound = () => {
   return (
     <div>
-      
+      je suis la page notfound
     </div>
   );
 };
