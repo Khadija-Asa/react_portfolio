@@ -1,8 +1,8 @@
-import React, {useState} from 'react';
+import React from 'react';
 import { NavLink } from "react-router-dom";
 import './../styles/header.css';
 import Menu from './../components/Menu';
-import umbro from './../shared/umbra-03.jpeg';
+import logo from './../shared/logo.svg';
 
 
 const Header = () => {
@@ -10,12 +10,8 @@ const Header = () => {
     <nav className='nav_section'>
 
       <NavLink to="/">
-        logo
+        <img src={logo} alt="logo" />
       </NavLink>
-
-      <div className='nav_title'>
-        khadidja ait si ali
-      </div>
 
       <Menu />
       

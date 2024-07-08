@@ -8,9 +8,9 @@
 
 .burger_bar {
   width: 2rem;
-  height: .3rem;
-  background-color: var(--Orange);
-  border-radius: .2rem;
+  height: .2rem;
+  background-color: var(--Black);
+  border-radius: 1rem;
   margin-bottom: .15rem;
 }
 
@@ -74,6 +74,7 @@
   flex-direction: column;
   height: 100vh;
   justify-content: center;
+  position: relative;
 }
 
 .menu_links {

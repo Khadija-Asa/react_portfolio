@@ -1,6 +1,6 @@
 /* Colors */
 :root {
-  --Orange: #FF451D;
+  --Orange: #f0360e;
   --Black: #000103;
   --White: #ede8e4;
 }
@@ -8,8 +8,8 @@
 /* Fonts */
 
 @font-face {
-  font-family: 'Romalika';
-  src: url(./../fonts/romalika/ROMALIKA.otf);
+  font-family: 'Mediative';
+  src: url(./../fonts/meditative/Meditative.ttf);
 }
 
 @font-face {
@@ -42,18 +42,19 @@ html:focus-within {
 }
 
 html, body {
-  overflow: hidden;
+  overflow-x: hidden;
 }
 
 /* Set core body defaults */
 body {
   background-color: var(--White);
-  height: 100vh;
+  background-image: url("data:image/svg+xml,%3Csvg width='30' height='1' viewBox='0 0 6 6' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23ae8cfa' fill-opacity='0.4' fill-rule='evenodd'%3E%3Cpath d='M5 0h1L0 6V5zM6 5v1H5z'/%3E%3C/g%3E%3C/svg%3E");
   width: 100vw;
   color: var(--Black);
   font-family: 'Pergola';
   line-height: 1.5;
   text-rendering: optimizeSpeed;
+  padding: 0 .8rem 0 .3rem;
 }
 
 /* Inherit fonts for inputs and buttons */
@@ -85,6 +86,6 @@ select {
   background-color:var(--White);
 }
 ::-webkit-scrollbar-thumb{
-  background-color:var(--Light-Purple);
+  background-color:var(--Orange);
   border-radius: 10px;
 }
