@@ -24,39 +24,39 @@ const Navbar = () => {
 
     return(
         <div>
+
             <div className="burger_menu" onClick={updateMenu}>
                 <span className={burger_class} ></span>
                 <span className={burger_class} ></span>
                 <span className={burger_class} ></span>
             </div>
 
+
             <div className={menu_class} onClick={"menu hidden"}>
 
               <ul className='menu_section'>
                 <li className='menu_links'>
-                    <NavLink to="/">
+                    <NavLink  to="/">                  
                         <span className='menu_number'>00</span>
-                        <span className='menu_title'>home</span>
-                    </NavLink> 
+                        <span className='menu_link'>home</span>
+                    </NavLink>
                 </li>
                 <li className='menu_links'>
                     <NavLink to="/work">
                         <span className='menu_number'>01</span>
-                        <span className='menu_title'>work</span>
+                        <span className='menu_link'>work</span>
                     </NavLink> 
                 </li>
                 <li className='menu_links'>
                     <NavLink to="/contact">
                         <span className='menu_number'>02</span>
-                        <span className='menu_title'>contact</span>
+                        <span className='menu_link'>contact</span>
                     </NavLink> 
                 </li>
               </ul>
 
-              
-
-
             </div>
+
         </div>
   );
 };

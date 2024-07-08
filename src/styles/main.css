@@ -2,6 +2,7 @@
 :root {
   --Orange: #FF451D;
   --Black: #000103;
+  --White: #ede8e4;
 }
 
 /* Fonts */
@@ -46,7 +47,7 @@ html, body {
 
 /* Set core body defaults */
 body {
-  background-color: #ede8e4;
+  background-color: var(--White);
   height: 100vh;
   width: 100vw;
   color: var(--Black);
