@@ -9,10 +9,6 @@ const Home = () => {
   return (
     <section className='hero_container'>
 
-      {/* <div className='ampersand'>
-        <img src={and} alt="ampersand" />
-      </div>         */}
-
       <div className="hero">
         <h1 data-aos="fade-right"  data-aos-easing="linear"
             data-aos-duration="1200">
@@ -36,7 +32,7 @@ const Home = () => {
           <ul>
             <li data-aos="fade-down"
                 data-aos-easing="linear"
-                data-aos-duration="1200">passionate <span className='highlight'>frontend</span> developer since 2019.</li>
+                data-aos-duration="1200">passionate <span className='highlight'>frontend</span> developer since 2021.</li>
             <li data-aos="fade-down"
                 data-aos-easing="linear"
                 data-aos-duration="1100">specialize in creating <span className='highlight'>responsive</span>, user-friendly web applications.</li>

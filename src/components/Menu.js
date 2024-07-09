@@ -36,7 +36,7 @@ const Navbar = () => {
 
               <ul className='menu_section'>
                 <li className='menu_links'>
-                    <NavLink  to="/">                  
+                    <NavLink  to="#footer">                  
                         <span className='menu_number'>00</span>
                         <span className='menu_link'>home</span>
                     </NavLink>
