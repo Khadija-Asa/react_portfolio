@@ -3,9 +3,11 @@ import './../styles/work.css';
 
 const Work = () => {
   return (
-    <div>
-      je suis la page work
-    </div>
+    <section className='work'>
+
+      
+      
+    </section>
   );
 };
 
