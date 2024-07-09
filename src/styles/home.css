@@ -34,6 +34,13 @@
   font-weight: 100;
 }
 
+.arrow img {
+  display: flex;
+  justify-content: flex-start;
+  rotate: 90deg;
+  width: 15%;
+}
+
 .about {
   text-align: justify;
   padding: 0 1rem 0 1rem;
@@ -41,10 +48,22 @@
 
 /* slider */
 .slide_grid {
-  display: grid;
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  gap: 1rem;
+  align-content: center;
+}
+
+.slider {
+  display: flex;
+  justify-content: center;
 }
 
 .slider .slide svg {
   height: clamp(1.5rem, 1.4385rem + 0.3077vw, 1.8rem);
-  width: 100px;
+}
+
+.highlight {
+  color: var(--Orange);
 }
