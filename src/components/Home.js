@@ -1,4 +1,4 @@
-import React, { useRef } from 'react';
+import React from 'react';
 import './../styles/home.css';
 import arrow from './../shared/wired-arrow.gif'
 import AOS from 'aos';
@@ -28,8 +28,8 @@ const Home = () => {
       </div>
 
       <div className='about'>
-        <p>
-          <ul>
+        <p className='paragraph'>
+          <ul className='paragraph'>
             <li data-aos="fade-down"
                 data-aos-easing="linear"
                 data-aos-duration="1200">passionate <span className='highlight'>frontend</span> developer since 2021.</li>

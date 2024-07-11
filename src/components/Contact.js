@@ -1,12 +1,13 @@
 import React from 'react';
 import './../styles/contact.css';
+import circle from './../shared/circle_contact.gif';
 
-const Contact = () => {
+function Contact() {
   return (
-    <div>
-      <h1>je suis la page contact</h1>
-    </div>
-  );
-};
+    <section className='contact_container'>
+      <img src={circle} alt="" />
+    </section>
+  )
+}
 
-export default Contact;
+export default Contact
