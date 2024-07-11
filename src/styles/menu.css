@@ -84,13 +84,13 @@
 .menu_link {
   color: var(--Orange);
   text-transform: uppercase;
-  font-size: clamp(3rem, 1.6rem + 7vw, 10rem);  transition: letter-spacing 1s;
+  font-size: clamp(3rem, 1.6rem + 7vw, 10rem);
 }
 
-.menu_link:hover {
+/* .menu_link:hover {
   letter-spacing: -.03em;
   transition: letter-spacing .3s ease-in-out;
-}
+} */
 
 .menu_number {
   color: var(--Orange);

@@ -3,7 +3,7 @@ import './../styles/work.css';
 
 const Work = () => {
   return (
-    <section className='work'>
+    <section className='work_container' id='work'>
 
       
       

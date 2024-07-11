@@ -19,13 +19,26 @@
 }
 
 .hero h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   color: var(--White);
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: var(--Black);
 }
 
+.hero h1 img {
+  height: clamp(0.625rem, 0.5rem + 0.625vw, 1.25rem);
+}
+
 .hero h2 {
   color: var(--Orange);
+  transition: letter-spacing 1s;
+}
+
+.hero h2:hover {
+  letter-spacing: -.03em;
+  transition: letter-spacing .3s ease-in;
 }
 
 .hero_container h3 {

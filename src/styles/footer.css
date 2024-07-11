@@ -6,7 +6,7 @@ footer {
   font-family: 'Pergola';
 }
 
-.footer {
+.footer_container {
   bottom: 0;
   padding: 4rem 0 0 0;
 }
@@ -78,12 +78,12 @@ footer {
   padding-bottom: 5rem;
 }
 
-.bottom-title span,
+.bottom_title span,
 .bottom-title a {
-  font-size: clamp(0.75rem, 0.7397rem + 0.0513vw, 0.8rem);
+  font-size: clamp(0.5rem, 0.46rem + 0.2vw, 0.7rem);
 }
 
-.bottom-title a:hover {
+.bottom_title a:hover {
   color: var(--Orange);
 }
 

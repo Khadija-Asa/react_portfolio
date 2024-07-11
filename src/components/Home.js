@@ -10,17 +10,17 @@ const Home = () => {
     <section className='hero_container'>
 
       <div className="hero">
-        <h1 data-aos="fade-right"  data-aos-easing="linear"
-            data-aos-duration="1200">
-          creative
+        <h1>
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAr0lEQVR4nO3UXwqCQBCA8e8lu0vaUQ1FycP05xLWQdIelWJhhAgq3JmIYD4Y2Lcf7jKC53k/ag2UwAm4yoRzAWTfAJfAFhiB24sZgBpILNHjG/B5DlZ4MwOdprJ40zECDteeauAyAp1mo4HPCrjVwL0C7jRwp4Avf3nVhQLONXAmqxGzTiuU1RFwWEN1CbCfge6AhQU84dWHax/kS83Qx1L5I7Wy472cc4s39TyPmO6tyccGZ5xPrAAAAABJRU5ErkJggg=="/>
+        creative
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAr0lEQVR4nO3UXwqCQBCA8e8lu0vaUQ1FycP05xLWQdIelWJhhAgq3JmIYD4Y2Lcf7jKC53k/ag2UwAm4yoRzAWTfAJfAFhiB24sZgBpILNHjG/B5DlZ4MwOdprJ40zECDteeauAyAp1mo4HPCrjVwL0C7jRwp4Avf3nVhQLONXAmqxGzTiuU1RFwWEN1CbCfge6AhQU84dWHax/kS83Qx1L5I7Wy472cc4s39TyPmO6tyccGZ5xPrAAAAABJRU5ErkJggg=="/>
         </h1>
-        <h2 data-aos="fade-right"  data-aos-easing="linear"
-            data-aos-duration="1000">
+        <h2>
           web developer
         </h2>
       </div>
 
-      <h3>by KHADIDJA AIT SI ALI</h3>
+      <h3>by khadidja ait si ali</h3>
       <br />
 
       <div className='arrow'>
