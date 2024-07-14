@@ -1,0 +1,52 @@
+.rows {
+  border-top: 1px solid var(--Orange);
+  display: flex;
+  flex-direction: column;
+  padding: 1.5rem;
+  width: 100vw;
+}
+
+.rows h5 {
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  font-family: 'Mediative';
+}
+
+.rows_list h6 {
+  text-transform: uppercase;
+  font-size: 1rem;
+}
+
+.row_buttons {
+  display: flex;
+  gap: 1rem;
+}
+
+.row_buttons button {
+  border: none;
+  border-radius: .75rem;
+  background: var(--Black);
+}
+
+.button_top {
+  display: block;
+  box-sizing: border-box;
+  border: 1px solid var(--Black);
+  border-radius: .75rem;
+  padding: 0.7rem 1rem;
+  background: var(--White);
+  color: var(--Black);
+  transform: translateY(-0.2em);
+  transition: transform 0.1s ease;
+}
+
+.rows_list button:hover .button_top {
+  /* Pull the button upwards when hovered */
+  transform: translateY(-0.33em);
+  
+}
+
+.rows_list button:active .button_top {
+  /* Push the button downwards when pressed */
+  transform: translateY(0);
+}
