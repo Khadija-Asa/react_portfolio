@@ -4,6 +4,7 @@ footer {
   text-transform: uppercase;
   border-top: 1px solid var(--Orange);
   font-family: 'Pergola';
+  margin-top: 10rem;
 }
 
 .footer_container {

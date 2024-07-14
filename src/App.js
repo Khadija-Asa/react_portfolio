@@ -1,4 +1,5 @@
-import React from 'react';
+import React from "react";
+import locomotiveScroll from "locomotive-scroll";
 import { BrowserRouter } from 'react-router-dom';
 import Header from "./components/Header";
 import Home from "./components/Home";

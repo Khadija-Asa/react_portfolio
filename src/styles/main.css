@@ -83,10 +83,9 @@ select {
 }
 
 ::-webkit-scrollbar{
-  width: 5px;
+  width: 2px;
   background-color:var(--White);
 }
 ::-webkit-scrollbar-thumb{
   background-color:var(--Orange);
-  border-radius: 10px;
 }

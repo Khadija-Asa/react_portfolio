@@ -1,19 +1,26 @@
-import React from 'react';
+import React, { useEffect } from "react";
 import './../styles/home.css';
-import arrow from './../shared/wired-arrow.gif'
+import arrow from './../shared/wired-arrow.gif';
+import { gsap } from "gsap";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 AOS.init();
 
 const Home = () => {
+
+  let tl = gsap.timeline();
+    useEffect(() => {
+      // effect
+    }, []);
+
   return (
     <section className='hero_container'>
-
+      
       <div className="hero">
         <h1>
-        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAr0lEQVR4nO3UXwqCQBCA8e8lu0vaUQ1FycP05xLWQdIelWJhhAgq3JmIYD4Y2Lcf7jKC53k/ag2UwAm4yoRzAWTfAJfAFhiB24sZgBpILNHjG/B5DlZ4MwOdprJ40zECDteeauAyAp1mo4HPCrjVwL0C7jRwp4Avf3nVhQLONXAmqxGzTiuU1RFwWEN1CbCfge6AhQU84dWHax/kS83Qx1L5I7Wy472cc4s39TyPmO6tyccGZ5xPrAAAAABJRU5ErkJggg=="/>
+          <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAr0lEQVR4nO3UXwqCQBCA8e8lu0vaUQ1FycP05xLWQdIelWJhhAgq3JmIYD4Y2Lcf7jKC53k/ag2UwAm4yoRzAWTfAJfAFhiB24sZgBpILNHjG/B5DlZ4MwOdprJ40zECDteeauAyAp1mo4HPCrjVwL0C7jRwp4Avf3nVhQLONXAmqxGzTiuU1RFwWEN1CbCfge6AhQU84dWHax/kS83Qx1L5I7Wy472cc4s39TyPmO6tyccGZ5xPrAAAAABJRU5ErkJggg=="/>
         creative
-        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAr0lEQVR4nO3UXwqCQBCA8e8lu0vaUQ1FycP05xLWQdIelWJhhAgq3JmIYD4Y2Lcf7jKC53k/ag2UwAm4yoRzAWTfAJfAFhiB24sZgBpILNHjG/B5DlZ4MwOdprJ40zECDteeauAyAp1mo4HPCrjVwL0C7jRwp4Avf3nVhQLONXAmqxGzTiuU1RFwWEN1CbCfge6AhQU84dWHax/kS83Qx1L5I7Wy472cc4s39TyPmO6tyccGZ5xPrAAAAABJRU5ErkJggg=="/>
+          <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAr0lEQVR4nO3UXwqCQBCA8e8lu0vaUQ1FycP05xLWQdIelWJhhAgq3JmIYD4Y2Lcf7jKC53k/ag2UwAm4yoRzAWTfAJfAFhiB24sZgBpILNHjG/B5DlZ4MwOdprJ40zECDteeauAyAp1mo4HPCrjVwL0C7jRwp4Avf3nVhQLONXAmqxGzTiuU1RFwWEN1CbCfge6AhQU84dWHax/kS83Qx1L5I7Wy472cc4s39TyPmO6tyccGZ5xPrAAAAABJRU5ErkJggg=="/>
         </h1>
         <h2>
           web developer
@@ -29,13 +36,13 @@ const Home = () => {
 
       <div className='about'>
         <p className='paragraph'>
-          <ul className='paragraph'>
+          <ul>
             <li data-aos="fade-down"
                 data-aos-easing="linear"
                 data-aos-duration="1200">passionate <span className='highlight'>frontend</span> developer since 2021.</li>
             <li data-aos="fade-down"
                 data-aos-easing="linear"
-                data-aos-duration="1100">specialize in creating <span className='highlight'>responsive</span>, user-friendly web applications.</li>
+                data-aos-duration="1100">specialized in creating <span className='highlight'>responsive</span>, user-friendly web applications.</li>
             <li data-aos="fade-down"
                 data-aos-easing="linear"
                 data-aos-duration="1000">my expertise extends to <span className='highlight'>modern</span> frameworks.</li>
@@ -71,6 +78,12 @@ const Home = () => {
             <div class="slide">
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" fill="white"><path d="M0 32l34.9 395.8L192 480l157.1-52.2L384 32H0zm313.1 80l-4.8 47.3L193 208.6l-.3.1h111.5l-12.8 146.6-98.2 28.7-98.8-29.2-6.4-73.9h48.9l3.2 38.3 52.6 13.3 54.7-15.4 3.7-61.6-166.3-.5v-.1l-.2.1-3.6-46.3L193.1 162l6.5-2.7H76.7L70.9 112h242.2z"/></svg>          
             </div>
+            {/* tailwind */}
+            {/* <div className="slide">
+              <svg viewBox="0 0 256 190" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid">
+                <path d="M128 0C93.867 0 72.533 17.067 64 51.2 76.8 34.133 91.733 27.733 108.8 32c9.737 2.434 16.697 9.499 24.401 17.318C145.751 62.057 160.275 76.8 192 76.8c34.133 0 55.467-17.067 64-51.2-12.8 17.067-27.733 23.467-44.8 19.2-9.737-2.434-16.697-9.499-24.401-17.318C174.249 14.743 159.725 0 128 0ZM64 76.8C29.867 76.8 8.533 93.867 0 128c12.8-17.067 27.733-23.467 44.8-19.2 9.737 2.434 16.697 9.499 24.401 17.318C81.751 138.857 96.275 153.6 128 153.6c34.133 0 55.467-17.067 64-51.2-12.8 17.067-27.733 23.467-44.8 19.2-9.737-2.434-16.697-9.499-24.401-17.318C110.249 91.543 95.725 76.8 64 76.8Z" fill="#fff"></path>
+              </svg>
+            </div> */}
             {/* github */}
             <div class="slide">
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512" fill="white"><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>          
@@ -82,10 +95,6 @@ const Home = () => {
             {/* figma */}
             <div class="slide">
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" fill="white"><path d="M14 95.7924C14 42.8877 56.8878 0 109.793 0H274.161C327.066 0 369.954 42.8877 369.954 95.7924C369.954 129.292 352.758 158.776 326.711 175.897C352.758 193.019 369.954 222.502 369.954 256.002C369.954 308.907 327.066 351.795 274.161 351.795H272.081C247.279 351.795 224.678 342.369 207.666 326.904V415.167C207.666 468.777 163.657 512 110.309 512C57.5361 512 14 469.243 14 416.207C14 382.709 31.1945 353.227 57.2392 336.105C31.1945 318.983 14 289.5 14 256.002C14 222.502 31.196 193.019 57.2425 175.897C31.196 158.776 14 129.292 14 95.7924ZM176.288 191.587H109.793C74.2172 191.587 45.3778 220.427 45.3778 256.002C45.3778 291.44 73.9948 320.194 109.381 320.416C109.518 320.415 109.655 320.415 109.793 320.415H176.288V191.587ZM207.666 256.002C207.666 291.577 236.505 320.417 272.081 320.417H274.161C309.737 320.417 338.576 291.577 338.576 256.002C338.576 220.427 309.737 191.587 274.161 191.587H272.081C236.505 191.587 207.666 220.427 207.666 256.002ZM109.793 351.795C109.655 351.795 109.518 351.794 109.381 351.794C73.9948 352.015 45.3778 380.769 45.3778 416.207C45.3778 451.652 74.6025 480.622 110.309 480.622C146.591 480.622 176.288 451.186 176.288 415.167V351.795H109.793ZM109.793 31.3778C74.2172 31.3778 45.3778 60.2173 45.3778 95.7924C45.3778 131.368 74.2172 160.207 109.793 160.207H176.288V31.3778H109.793ZM207.666 160.207H274.161C309.737 160.207 338.576 131.368 338.576 95.7924C338.576 60.2173 309.737 31.3778 274.161 31.3778H207.666V160.207Z"/></svg>          
-            </div>
-            {/* shopify */}
-            <div class="slide">
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" fill="white"><path d="M388.32,104.1a4.66,4.66,0,0,0-4.4-4c-2,0-37.23-.8-37.23-.8s-21.61-20.82-29.62-28.83V503.2L442.76,472S388.72,106.5,388.32,104.1ZM288.65,70.47a116.67,116.67,0,0,0-7.21-17.61C271,32.85,255.42,22,237,22a15,15,0,0,0-4,.4c-.4-.8-1.2-1.2-1.6-2C223.4,11.63,213,7.63,200.58,8c-24,.8-48,18-67.25,48.83-13.61,21.62-24,48.84-26.82,70.06-27.62,8.4-46.83,14.41-47.23,14.81-14,4.4-14.41,4.8-16,18-1.2,10-38,291.82-38,291.82L307.86,504V65.67a41.66,41.66,0,0,0-4.4.4S297.86,67.67,288.65,70.47ZM233.41,87.69c-16,4.8-33.63,10.4-50.84,15.61,4.8-18.82,14.41-37.63,25.62-50,4.4-4.4,10.41-9.61,17.21-12.81C232.21,54.86,233.81,74.48,233.41,87.69ZM200.58,24.44A27.49,27.49,0,0,1,215,28c-6.4,3.2-12.81,8.41-18.81,14.41-15.21,16.42-26.82,42-31.62,66.45-14.42,4.41-28.83,8.81-42,12.81C131.33,83.28,163.75,25.24,200.58,24.44ZM154.15,244.61c1.6,25.61,69.25,31.22,73.25,91.66,2.8,47.64-25.22,80.06-65.65,82.47-48.83,3.2-75.65-25.62-75.65-25.62l10.4-44s26.82,20.42,48.44,18.82c14-.8,19.22-12.41,18.81-20.42-2-33.62-57.24-31.62-60.84-86.86-3.2-46.44,27.22-93.27,94.47-97.68,26-1.6,39.23,4.81,39.23,4.81L221.4,225.39s-17.21-8-37.63-6.4C154.15,221,153.75,239.8,154.15,244.61ZM249.42,82.88c0-12-1.6-29.22-7.21-43.63,18.42,3.6,27.22,24,31.23,36.43Q262.63,78.68,249.42,82.88Z"/></svg>          
             </div>
           </div>
         </section>

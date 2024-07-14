@@ -5,7 +5,7 @@ const Work = () => {
   return (
     <section className='work_container' id='work'>
 
-      
+      work
       
     </section>
   );

@@ -78,5 +78,9 @@
 }
 
 .highlight {
-  color: var(--Orange);
+  text-transform: uppercase;
+  color: var(--White);
+  -webkit-text-stroke-width: .5px;
+  -webkit-text-stroke-color: var(--Orange);
+  font-family: 'Mediative';
 }
