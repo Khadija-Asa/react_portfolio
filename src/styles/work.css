@@ -1,52 +1,91 @@
-.rows {
-  border-top: 1px solid var(--Orange);
-  display: flex;
-  flex-direction: column;
-  padding: 1.5rem;
+.work_rows {
+  display: grid;
+  grid-template-columns: repeat(1fr);
+  border-bottom: 1px solid rgb(204, 204, 204);
   width: 100vw;
+  color: var(--Black);
+  background-color: var(--White);
 }
 
-.rows h5 {
+.rows {
+  padding: 1rem;
+  border-top: solid rgb(204, 204, 204);
+  border-left: solid rgb(204, 204, 204);
+  border-width: thin;
+}
+
+.rows:hover {
+  background-color: var(--Black);
+  color: var(--White);
+  transition: all .8s ease;
+}
+
+/* title */
+.rows_title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.rows_title h5 {
   text-transform: uppercase;
   font-size: 1.5rem;
   font-family: 'Mediative';
+  letter-spacing: .2rem;
+  text-decoration: line-through var(--Orange);
 }
 
-.rows_list h6 {
-  text-transform: uppercase;
-  font-size: 1rem;
+.rows_title img {
+  width: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-self: center;
 }
 
+/* button */
 .row_buttons {
   display: flex;
-  gap: 1rem;
+  flex-wrap: wrap;
+  gap: .5rem;
+  align-items: center;
+  justify-content: center;
 }
 
 .row_buttons button {
+  color: var(--White);
   border: none;
-  border-radius: .75rem;
-  background: var(--Black);
+  background-color: rgb(30, 30, 30);
+  padding: .5rem 1rem;
+  width: max-content;
+  transition: all .5s ease;
+  border-radius: 1rem;
 }
 
-.button_top {
-  display: block;
-  box-sizing: border-box;
-  border: 1px solid var(--Black);
-  border-radius: .75rem;
-  padding: 0.7rem 1rem;
-  background: var(--White);
-  color: var(--Black);
-  transform: translateY(-0.2em);
-  transition: transform 0.1s ease;
+.row_buttons button:hover {
+  cursor: none;
+  transform: translate(0, -5px);
 }
 
-.rows_list button:hover .button_top {
-  /* Pull the button upwards when hovered */
-  transform: translateY(-0.33em);
-  
+/* media queries */
+@media screen and (min-width: 768px) {
+  .work_rows {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+  }
 }
 
-.rows_list button:active .button_top {
-  /* Push the button downwards when pressed */
-  transform: translateY(0);
+@media screen and (min-width: 1024px) {
+  .work_rows {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .work_rows {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+  }
 }
