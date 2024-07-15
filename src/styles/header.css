@@ -5,6 +5,8 @@
   height: 3rem;
   width: 100%;
   top: 0;
+  position: absolute;
+  padding: 0 .8rem 0 .8rem;
 }
 
 .nav_section img {
