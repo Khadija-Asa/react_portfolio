@@ -5,6 +5,7 @@
   width: 100vw;
   color: var(--Black);
   background-color: var(--White);
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
 }
 
 .rows {

@@ -281,11 +281,6 @@ const Work = () => {
         </article>
 
       </div>
-
-<br />
-<br />
-<br />
-<br />
       
     </section>
   );

@@ -12,7 +12,7 @@ const Footer = () => {
 
         <h6>
           since 2021. <br />
-          let's innovate together
+          let's innovate together.
         </h6>
 
       </div>
