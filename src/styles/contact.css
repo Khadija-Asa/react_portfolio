@@ -8,8 +8,8 @@
 .contact_circle img {
   display: flex;
   width: 30%;
-  align-items: start;
-  justify-content: start;
+  align-items: flex-start;
+  justify-content: flex-start;
   position: absolute;
   left: -3rem;
   margin-top: 1rem;
@@ -68,14 +68,6 @@
 }
 
 /* social media */
-.social_list hr {
-  background-color: var(--Orange);
-  width: 30px;
-  height: 3px;
-  border: none;
-  border-radius: 10px;
-}
-
 .social_list ul {
   display: flex;
   justify-content: center;

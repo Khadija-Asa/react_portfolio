@@ -87,3 +87,14 @@ select {
 ::-webkit-scrollbar-thumb{
   background-color:var(--Orange);
 }
+
+hr {
+  background-color: var(--Orange);
+  width: 30px;
+  height: 3px;
+  border: none;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

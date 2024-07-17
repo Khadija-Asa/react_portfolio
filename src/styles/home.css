@@ -66,12 +66,14 @@
   position: absolute;
   bottom: 0;
   gap: 1rem;
-  align-content: center;
+  justify-content: center;
+  align-items: center;
 }
 
 .slider {
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 .slider .slide svg {
@@ -80,8 +82,5 @@
 
 .highlight {
   text-transform: uppercase;
-  color: var(--White);
-  -webkit-text-stroke-width: .5px;
-  -webkit-text-stroke-color: var(--Orange);
   font-family: 'Mediative';
 }

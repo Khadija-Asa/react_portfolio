@@ -3,7 +3,6 @@ import './../styles/contact.css';
 import github from './../shared/social/github.svg';
 import linkedin from './../shared/social/linkedin.svg';
 import circle from './../shared/circle_contact.gif';
-import arrow from './../shared/arrow.gif';
 
 const Contact = () => {
 
@@ -15,7 +14,9 @@ const Contact = () => {
       </div>
 
       <div className='contact_title'>
-        <h4>
+        <h4 data-aos="fade-left"
+            data-aos-offset="500"
+            data-aos-duration="500">
           <div class="top">get in touch !</div>
           <div class="bottom" aria-hidden="true">get in touch !</div>
         </h4>
@@ -53,7 +54,8 @@ const Contact = () => {
       </div>
 
       <div className='contact_text'>
-        <p>
+        <p data-aos="fade-up"
+     data-aos-duration="2000">
           Looking for a top-notch web developer? Contact me to discuss your <strong>project</strong> needs and
           bring your <strong>vision</strong> to life. Let's create something amazing <strong>together</strong>!
         </p>

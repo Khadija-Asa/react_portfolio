@@ -10,7 +10,9 @@ const Footer = () => {
           frontend developer
         </h5>
 
-        <h6>
+        <h6 data-aos="fade-up"
+            data-aos-anchor-placement="center-bottom"
+            data-aos-duration="3000">
           since 2021. <br />
           let's innovate together.
         </h6>
@@ -22,7 +24,7 @@ const Footer = () => {
         <a href="https://www.linkedin.com/in/khadidja-ait-si-ali/" target="_blank" rel="noopener noreferrer">
           Linkedin.
         </a>
-        <a href="https://www.x.com/" target="_blank" rel="noopener noreferrer">
+        <a href="https://x.com/" target="_blank" rel="noopener noreferrer">
           X.
         </a>
         <a href="https://www.malt.fr/profile/khadidjaaitsiali1" target="_blank" rel="noopener noreferrer">
@@ -38,7 +40,7 @@ const Footer = () => {
 
         <p className="bottom_title main-style">
           <span>All rights reserved 2024</span>
-          <span><a href="">Mentions légales</a></span>
+          <span><a href="/">Mentions légales</a></span>
         </p>
 
       </div>
