@@ -12,7 +12,7 @@ const Footer = () => {
 
         <h6 data-aos="fade-up"
             data-aos-anchor-placement="center-bottom"
-            data-aos-duration="3000">
+            data-aos-duration="2500">
           since 2021. <br />
           let's innovate together.
         </h6>

@@ -25,6 +25,10 @@ const Navbar = () => {
     return(
         <div>
 
+<div class="overlay first"></div>
+  <div class="overlay second"></div>
+  <div class="overlay third"></div>
+
             <div className="burger_menu" onClick={updateMenu}>
                 <span className={burger_class} ></span>
                 <span className={burger_class} ></span>

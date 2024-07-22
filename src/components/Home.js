@@ -1,5 +1,6 @@
 import React from "react";
 import './../styles/home.css';
+import Overlay from './../components/Overlay';
 import arrow from './../shared/wired-arrow.gif';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -9,6 +10,8 @@ const Home = () => {
 
   return (
     <section className='hero_container'>
+
+      <Overlay/>
       
       <div className="hero">
         <h1>
@@ -21,7 +24,7 @@ const Home = () => {
         </h2>
       </div>
 
-      <h3>by khadidja ait si ali</h3>
+      <h3>by khadidja ait si ali.</h3>
       <br />
 
       <div className='arrow'>
@@ -33,16 +36,16 @@ const Home = () => {
           <ul>
             <li data-aos="fade-down"
                 data-aos-easing="linear"
-                data-aos-duration="1200">passionate <span className='highlight'>frontend</span> developer since 2021.</li>
+                data-aos-duration="2400">passionate <span className='highlight'>frontend</span> developer since 2021.</li>
             <li data-aos="fade-down"
                 data-aos-easing="linear"
-                data-aos-duration="1100">specialized in creating <span className='highlight'>responsive</span>, user-friendly web applications.</li>
+                data-aos-duration="2300">specialized in creating <span className='highlight'>responsive</span>, user-friendly web applications.</li>
             <li data-aos="fade-down"
                 data-aos-easing="linear"
-                data-aos-duration="1000">my expertise extends to <span className='highlight'>modern</span> frameworks.</li>
+                data-aos-duration="2200">my expertise extends to <span className='highlight'>modern</span> frameworks.</li>
             <li data-aos="fade-down"
                 data-aos-easing="linear"
-                data-aos-duration="900">looking forward to collaborating on <span className='highlight'>innovative</span> projects!</li>
+                data-aos-duration="2100">looking forward to collaborating on <span className='highlight'>innovative</span> projects!</li>
           </ul>
         </p>
 

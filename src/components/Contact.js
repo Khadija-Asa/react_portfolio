@@ -15,7 +15,7 @@ const Contact = () => {
 
       <div className='contact_title'>
         <h4 data-aos="fade-left"
-            data-aos-offset="500"
+            data-aos-offset="200"
             data-aos-duration="500">
           <div class="top">get in touch !</div>
           <div class="bottom" aria-hidden="true">get in touch !</div>

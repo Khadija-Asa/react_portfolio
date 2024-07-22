@@ -13,7 +13,7 @@ const Work = () => {
 
       <div className="work_rows">
 
-        <article className="rows">
+        <article data-aos="fade-up" data-aos-duration="1000" className="rows">
           <div className="rows_title">
             <h5 data-aos="fade-down"
      data-aos-duration="1000">
@@ -55,7 +55,7 @@ const Work = () => {
           </div>
         </article>
 
-        <article className="rows">
+        <article data-aos="fade-up" data-aos-duration="1200" className="rows">
           <div className="rows_title">
             <h5 data-aos="fade-down"
      data-aos-duration="1000">nft equilibrium</h5>
@@ -97,7 +97,7 @@ const Work = () => {
           </div>
         </article>
 
-        <article className="rows">
+        <article data-aos="fade-up" data-aos-duration="1400" className="rows">
           <div className="rows_title">
             <h5 data-aos="fade-down"
      data-aos-duration="1000">space tourism</h5>
@@ -144,7 +144,7 @@ const Work = () => {
           </div>
         </article>
 
-        <article className="rows">
+        <article data-aos="fade-up" data-aos-duration="1600" className="rows">
           <div className="rows_title">
             <h5 data-aos="fade-down"
      data-aos-duration="1000">numeriqu'elles</h5>
@@ -191,7 +191,7 @@ const Work = () => {
           </div>
         </article>
 
-        <article className="rows">
+        <article data-aos="fade-up" data-aos-duration="1800" className="rows">
           <div className="rows_title">
             <h5 data-aos="fade-down"
      data-aos-duration="1000">levyna</h5>
@@ -233,7 +233,7 @@ const Work = () => {
           </div>
         </article>
 
-        <article className="rows">
+        <article data-aos="fade-up" data-aos-duration="2000" className="rows">
           <div className="rows_title">
             <h5 data-aos="fade-down"
      data-aos-duration="1000">portfolio</h5>
