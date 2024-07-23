@@ -20,8 +20,11 @@ const Work = () => {
               moon crypto
             </h5>
             <img src={moon} alt="Mockup of Moon crypto's website" />
+            <a className="link_git" href="https://github.com/Khadija-Asa/moon_crypto" target="_blank"> 
+              view on github
+            </a>
           </div>
-          <div className="rows_list">
+          <div className="rows_list"> 
               <div className="row_buttons">
                 <button>
                     landing page
@@ -60,6 +63,9 @@ const Work = () => {
             <h5 data-aos="fade-down"
      data-aos-duration="1000">nft equilibrium</h5>
             <img src={nft} alt="Mockup of Nft's website" />
+            <a className="link_git" href="https://github.com/Khadija-Asa/nft-card" target="_blank"> 
+              view on github
+            </a>
           </div>
           <div className="rows_list">
               <div className="row_buttons">
@@ -101,7 +107,10 @@ const Work = () => {
           <div className="rows_title">
             <h5 data-aos="fade-down"
      data-aos-duration="1000">space tourism</h5>
-            <img src={space} alt="Mockup of Space tourism's website" />           
+            <img src={space} alt="Mockup of Space tourism's website" />   
+            <a className="link_git" href="https://github.com/Khadija-Asa/space-tourism" target="_blank"> 
+              view on github
+            </a>        
           </div>
           <div className="rows_list">
               <div className="row_buttons">
@@ -149,6 +158,9 @@ const Work = () => {
             <h5 data-aos="fade-down"
      data-aos-duration="1000">numeriqu'elles</h5>
             <img src={numeriquelles} alt="Mockup of Numériqu'Elles's website" />
+            <a className="link_git" href="https://github.com/Khadija-Asa/numeriqu-elles" target="_blank"> 
+              view on github
+            </a>
           </div>
           <div className="rows_list">
               <div className="row_buttons">
@@ -196,6 +208,9 @@ const Work = () => {
             <h5 data-aos="fade-down"
      data-aos-duration="1000">levyna</h5>
             <img src={levyna} alt="Mockup of Levyna's website" />
+            <a className="link_git" href="https://github.com/Khadija-Asa/levyna" target="_blank"> 
+              view on github
+            </a>
           </div>
           <div className="rows_list">
               <div className="row_buttons">
@@ -238,6 +253,9 @@ const Work = () => {
             <h5 data-aos="fade-down"
      data-aos-duration="1000">portfolio</h5>
             <img src={portfolio} alt="Mockup of Portfolio's website" />
+            <a className="link_git" href="https://github.com/Khadija-Asa/personal-website" target="_blank"> 
+              view on github
+            </a>
           </div>
           <div className="rows_list">
               <div className="row_buttons">

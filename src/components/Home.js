@@ -2,6 +2,7 @@ import React from "react";
 import './../styles/home.css';
 import Overlay from './../components/Overlay';
 import arrow from './../shared/wired-arrow.gif';
+import ScrollToTop from "react-scroll-to-top";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 AOS.init();
@@ -93,7 +94,21 @@ const Home = () => {
         </section>
       </div>
 
+      <ScrollToTop 
+      smooth 
+      color="#ede8e4"
+      viewBox="0 0 24 24"
+      style={{
+        right: "10px",
+        bottom: "20px",
+        background: "#000103",
+        height: "30px",
+      }}
+      svgPath="M7 14.5L12 9.5L17 14.5"
+      />
+
     </section>
+
   );
 };
 
