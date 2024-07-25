@@ -107,8 +107,3 @@
   background: var(--Light-Purple);
   left: 66.6%;
 }
-
-/* scroll to top */
-.scroll-to-top:hover {
-  background-color: red;
-}

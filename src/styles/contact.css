@@ -18,7 +18,7 @@
 /* title */
 .contact_title h4 {
   color: var(--Orange);
-  margin-top: 5rem;
+  margin-top: 6rem;
   display: grid;
   font-family: "Mediative";
   font-weight: 900;
@@ -73,6 +73,7 @@
   justify-content: center;
   align-items: center;
   gap: 2rem;
+  margin-top: 5rem;
 }
 
 .list_icon svg,

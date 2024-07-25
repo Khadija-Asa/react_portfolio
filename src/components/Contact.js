@@ -21,7 +21,6 @@ const Contact = () => {
           <div class="bottom" aria-hidden="true">get in touch !</div>
         </h4>
       </div>
-
       <div className="social_list">
         <ul>
           <hr />
