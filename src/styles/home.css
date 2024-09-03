@@ -48,6 +48,36 @@
   font-weight: 100;
 }
 
+.hero_container h3 img {
+  cursor: pointer;
+  width: 15px;
+}
+
+.tooltip-container {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip-text {
+  visibility: visible;
+  width: max-content;
+  background-color:var(--Black);
+  color: var(--White);
+  text-align: center;
+  padding: 5px;
+  border-radius: 4px;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  transform: translateX(-50%);
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.tooltip-container:hover .tooltip-text {
+  opacity: 1;
+}
 .arrow img {
   display: flex;
   justify-content: flex-start;

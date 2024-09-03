@@ -7,7 +7,7 @@ const Footer = () => {
       <div className="footer_title">
 
         <h5>
-          frontend developer
+          fullstack developer
         </h5>
 
         <h6 data-aos="fade-up"

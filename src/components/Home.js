@@ -1,13 +1,18 @@
-import React from "react";
+import React, {useState} from "react";
 import './../styles/home.css';
 import Overlay from './../components/Overlay';
 import arrow from './../shared/wired-arrow.gif';
+import eid from './../shared/eid_lab.webp';
 import ScrollToTop from "react-scroll-to-top";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 AOS.init();
 
 const Home = () => {
+
+  const [visible, setVisible] = useState(false);
+  const showTooltip = () => setVisible(true);
+  const hideTooltip = () => setVisible(false);
 
   return (
     <section className='hero_container'>
@@ -17,7 +22,7 @@ const Home = () => {
       <div className="hero">
         <h1>
           <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAr0lEQVR4nO3UXwqCQBCA8e8lu0vaUQ1FycP05xLWQdIelWJhhAgq3JmIYD4Y2Lcf7jKC53k/ag2UwAm4yoRzAWTfAJfAFhiB24sZgBpILNHjG/B5DlZ4MwOdprJ40zECDteeauAyAp1mo4HPCrjVwL0C7jRwp4Avf3nVhQLONXAmqxGzTiuU1RFwWEN1CbCfge6AhQU84dWHax/kS83Qx1L5I7Wy472cc4s39TyPmO6tyccGZ5xPrAAAAABJRU5ErkJggg==" alt="Dot" />
-        creative
+          fullstack
           <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAr0lEQVR4nO3UXwqCQBCA8e8lu0vaUQ1FycP05xLWQdIelWJhhAgq3JmIYD4Y2Lcf7jKC53k/ag2UwAm4yoRzAWTfAJfAFhiB24sZgBpILNHjG/B5DlZ4MwOdprJ40zECDteeauAyAp1mo4HPCrjVwL0C7jRwp4Avf3nVhQLONXAmqxGzTiuU1RFwWEN1CbCfge6AhQU84dWHax/kS83Qx1L5I7Wy472cc4s39TyPmO6tyccGZ5xPrAAAAABJRU5ErkJggg==" alt="Dot" />
         </h1>
         <h2>
@@ -25,7 +30,18 @@ const Home = () => {
         </h2>
       </div>
 
-      <h3>by khadidja ait si ali.</h3>
+      <h3>by khadidja ait si ali
+        <br />  
+        <span  
+          className="tooltip-container"
+          onMouseEnter={showTooltip}
+          onMouseLeave={hideTooltip}>
+
+          <img src={eid} alt="Eid Lab's logo" />
+          {visible && <div className="tooltip-text">The future fullstack developer at Eid Lab 😀</div>}
+
+        </span>
+      </h3>
       <br />
 
       <div className='arrow'>
@@ -37,7 +53,7 @@ const Home = () => {
           <ul>
             <li data-aos="fade-down"
                 data-aos-easing="linear"
-                data-aos-duration="2400">passionate <span className='highlight'>frontend</span> developer since 2021.</li>
+                data-aos-duration="2400">passionate <span className='highlight'>web</span> development since 2021.</li>
             <li data-aos="fade-down"
                 data-aos-easing="linear"
                 data-aos-duration="2300">specialized in creating <span className='highlight'>responsive</span>, user-friendly web applications.</li>

@@ -10,7 +10,7 @@ const Contact = () => {
     <section className='contact_container' id='contact'>
 
       <div className='contact_circle'>
-        <img src={circle} alt="" />
+        <img src={circle} alt="contact me" />
       </div>
 
       <div className='contact_title'>
@@ -18,7 +18,7 @@ const Contact = () => {
             data-aos-offset="200"
             data-aos-duration="500">
           <div class="top">get in touch !</div>
-          <div class="bottom" aria-hidden="true">get in touch !</div>
+          {/* <div class="bottom" aria-hidden="true">get in touch !</div> */}
         </h4>
       </div>
       <div className="social_list">

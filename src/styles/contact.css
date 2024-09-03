@@ -16,6 +16,8 @@
 }
 
 /* title */
+
+
 .contact_title h4 {
   color: var(--Orange);
   margin-top: 6rem;
@@ -25,11 +27,12 @@
   font-size: clamp(3rem, 1.6rem + 7vw, 10rem);
   text-transform: uppercase;
   color: var(--Orange);
-  rotate: -3deg;
+  rotate: -2deg;
   place-content: center;
+  letter-spacing: .1rem;
 }
 
-.contact_title h4 > div {
+/* .contact_title h4 > div {
   grid-area: 1/1/-1/-1;
 }
 .contact_title .top {
@@ -44,7 +47,7 @@
   background-clip: text;
   -webkit-background-clip: text;
   transform: translateX(-0.02em);
-}
+} */
 
 /* text */
 .contact_text {
